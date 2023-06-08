@@ -1,0 +1,17 @@
+<div class="container-fluid" style="display: inline;">
+    <div class="row" style="justify-content: center;">
+        <div *ngFor="let p of products">
+            <div class="card bg-light" style="width: 30vh; margin: 10px; padding: 0;">
+                <div class="card-body m-0 p-0">
+                    <img class="card-img-top" [src]="p.img" style="width: 30vh; height: auto; padding: 0; margin: 0;">
+                </div> 
+                <div class="card-footer"><div class="m-2">{{p.name_product}} : {{p.price}}đ</div>
+                    <div>
+                        <input class="" style="width: 50px; height: 25px; padding: 3px;" type="number" name="" id="" min="1" value="0">
+                        <button class="btn btn-danger">Mua</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

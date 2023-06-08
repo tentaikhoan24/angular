@@ -1,0 +1,46 @@
+[
+    {
+        "id": 2,
+        "name_product": "Samsung Galaxy A14",
+        "price": 15000000,
+        "img": "https://cdn.hoanghamobile.com/i/preview/Uploads/2023/05/17/a14-1.png",
+        "amount": 1000,
+        "product_type": 1,
+        "nameProduct": "Samsung Galaxy A14",
+        "idProduct": 2,
+        "productType": 1
+    },
+    {
+        "id": 3,
+        "name_product": "Iphone 14",
+        "price": 20000000,
+        "img": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/anh-chup-man-hinh-2022-09-08-luc-01-59-53-removebg-preview.png",
+        "amount": 1000,
+        "product_type": 1,
+        "nameProduct": "Iphone 14",
+        "idProduct": 3,
+        "productType": 1
+    },
+    {
+        "id": 6,
+        "name_product": "Samsung Galaxy A54",
+        "price": 20000000,
+        "img": "https://cdn.hoanghamobile.com/i/preview/Uploads/2023/05/27/anh-chup-man-hinh-2023-05-27-luc-21-06-12-removebg-preview.png",
+        "amount": 1000,
+        "product_type": 1,
+        "nameProduct": "Samsung Galaxy A54",
+        "idProduct": 6,
+        "productType": 1
+    },
+    {
+        "id": 7,
+        "name_product": "realme C30s",
+        "price": 10000000,
+        "img": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/21/image-removebg-preview-6.png",
+        "amount": 1000,
+        "product_type": 1,
+        "nameProduct": "realme C30s",
+        "idProduct": 7,
+        "productType": 1
+    }
+]
