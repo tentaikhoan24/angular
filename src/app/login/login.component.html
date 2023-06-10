@@ -1,0 +1,17 @@
+<div class="row" style="justify-content: center;">
+    <form [formGroup]="loginForm" class="col-4" (ngSubmit)="login()">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">User:</label>
+          <input type="text" class="form-control" id="user_name" placeholder="Enter username" formControlName="user_name" name="user_name">
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="pass" placeholder="Enter password" formControlName="pass" name="pass">
+          <input type="hidden" formControlName="id">
+          <input type="hidden" formControlName="id">
+          <input type="hidden" formControlName="id">
+          <input type="hidden" formControlName="id">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

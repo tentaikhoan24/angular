@@ -22,4 +22,10 @@ export class ProductComponent {
     })
   }
 
+  addCart(idProduct:number){
+    const idCart = Number(localStorage.getItem("idCart"))
+    // const amountProduct = document.getElementById("idProduct").value
+    // this.javawebService.addCart(idCart, idProduct, amountProduct)
+  }
+
 }
